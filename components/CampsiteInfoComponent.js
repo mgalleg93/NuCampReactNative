@@ -14,7 +14,7 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = {
-    postFavorite: campsitesId => (postFavorite(campsiteId))
+    postFavorite: campsiteId => (postFavorite(campsiteId))
 };
 
 function RenderCampsite(props) {
@@ -70,7 +70,7 @@ function RenderComments({comments}) {
 class CampsiteInfo extends Component {
 
     markFavorite(campsiteId) {
-        this.postFavorite(campsiteId);
+        this.props.postFavorite(campsiteId);
     }
 
     static navigationOptions = {
