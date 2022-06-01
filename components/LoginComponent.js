@@ -246,7 +246,7 @@ class RegisterTab extends Component {
                                     iconStyle={{marginRight: 10}}
                                 />
                             }
-                            titleStyle={{backgroundColor: 'blue'}}
+                            buttonStyle={{backgroundColor: '#5637DD'}}
                         />
                     </View>
                 </View>
